@@ -1,0 +1,30 @@
+name: kashmir_reels
+description: "A professional TikTok clone app named Kashmir Reels with smooth video feed."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.2
+  chewie: ^1.7.5
+  provider: ^6.1.1
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  firebase_storage: ^11.6.9
+  image_picker: ^1.0.7
+  share_plus: ^7.2.1
+
+dev_dependencies:
+  flutter_test:
+  sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
